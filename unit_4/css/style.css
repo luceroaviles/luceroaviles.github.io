@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+
+*{
+	margin:2;
+	padding:2;
+	box-sizing:border-box;
+}
+
 img {
 	width: 400px;
 }
@@ -20,7 +27,7 @@ header{
 	text-decoration: none;
 	margin: 0 20px;
     border:none;
-    background-color: purple;
+    background-color: none;
 }
 
 h1{
@@ -33,11 +40,12 @@ body{
 
 h2{
 	font-size: 1em;
+	font-family: open sans;
 }
 
 hr{
 	border:none;
-	height: 4px;
+	height: 10px;
 	background-color: #5E7280; 
 	width:35em;
 	margin: .3em auto;
@@ -47,8 +55,28 @@ footer{
 	padding:50px 0;
 	text-align: center;
 	color:#807E7A;
-	font-weight:200;
+	font-weight:100;
 }
 
 section{
 	padding:50px 0;
+}
+
+.intro{
+	text-align: center;
+}
+
+#rivai{
+	text-align: center;
+	line-height: .5;
+}
+
+
+.images{
+	float: left;
+}
+
+
+
+
+
