@@ -4,8 +4,8 @@
 
 
 *{
-	margin:2;
-	padding:2;
+	margin:10px;
+	padding:.5px;
 	box-sizing:border-box;
 }
 
@@ -23,7 +23,7 @@ header{
 	text-transform:uppercase;
 	font-weight: 200;
 	letter-spacing: 2px;
-	padding: 10px;
+	padding: 8px;
 	text-decoration: none;
 	margin: 0 20px;
     border:none;
@@ -32,14 +32,16 @@ header{
 
 h1{
 	font-family: open sans;
+	font-weight: bolder;
 }
 
 body{
 	font-family: gentium basics, sans;
+	padding: 5px;
 }
 
 h2{
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family: open sans;
 }
 
@@ -56,6 +58,7 @@ footer{
 	text-align: center;
 	color:#807E7A;
 	font-weight:100;
+	line-height: 1.5em;
 }
 
 section{
@@ -68,15 +71,20 @@ section{
 
 #rivai{
 	text-align: center;
-	line-height: .5;
+	line-height: 1em;
+	padding: 5px;
 }
 
 
-.images{
-	float: left;
+h3{
+	font-family: open sans;
+
 }
 
 
+a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px
 
-
-
+}
