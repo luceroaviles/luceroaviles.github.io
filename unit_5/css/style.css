@@ -5,21 +5,112 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700i,900&display=swap');
 
 
-*{
+* {
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
 }
 
 img {
-	width: 600px;
+	 width: 600px;
+
 }
 
-/*header{
-	padding: 0 100px;
-}*/
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
 
-.navlinks{
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+footer {
+	text-align: center;
+	color:#807E7A;
+	font-weight:100;
+	line-height: 1.5em;
+	font-size: 1em;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+  	border: 1px black solid;
+	padding: 20px;
+}
+
+/*h1 {
+	font-weight: none; 
+	font-style: none;
+	font-size: 1em;*/
+
+}
+
+body h1 {
+	font-family: gentium basics, sans;
+	padding: 5px;
+	font-weight: none; 
+	font-style: none;
+	font-size: 1em;
+
+}
+
+h2 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	/*font-weight: 200; */
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-color: none;
+	margin: 0; 
+	padding: 0;
+	background-color: none;
+}
+
+hr {
+	border:none;
+	height: 8px;
+	background-color: #5E7280; 
+	width: 8em;
+	margin: 0px ;
+
+}
+
+
+h3 {
+	font-family: 'Roboto', sans-serif; 
+	/*font-weight: 800;*/
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: none;
+	font-style: bold;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+em {
+	font-weight: bold;
+}
+
+.navlinks {
 	font-family: 'Open Sans', sans-serif;
 	color:#000;
 	text-transform:uppercase;
@@ -31,72 +122,14 @@ img {
     background-color: none;
 }
 
-h1{
-	font-family: 'Roboto', sans-serif; 
-	font-weight: 800; 
-	font-style: bold;
-	font-size: 3em;
-
-
+.social-list img {
+	width: 60px; 
 }
 
-body{
-	font-family: gentium basics, sans;
-	padding: 5px;
-}
 
-h2{
-	font-size: 30px;
-	font-family: 'Open Sans', sans-serif;
-	/*font-weight: 200; */
-	letter-spacing: 2px;
-	text-decoration: none;
-	background-color: none;
-	margin: .1em ; 
-	padding: .2em;
-	background-color: none;
-}
-
-hr{
-	border:none;
-	height: 8px;
-	background-color: #5E7280; 
-	width: 8em;
-	margin: 0px ;
-
-}
-
-footer{
-	padding:50px 0;
-	text-align: center;
-	color:#807E7A;
-	font-weight:100;
-	line-height: 1.5em;
-	font-size: 1em;
-}
-
-/*#rivai{
-	text-align: center;
-	line-height: 1em;
-}*/
-
-
-h3{
-	font-family: 'Open Sans', sans-serif; 
-	/*font-weight: 200; */
-	letter-spacing: 1px;
-	text-decoration: none;
-	background-color: none;
-	font-style: bold;
+.site_logo img {
+	width: 300px;
 
 }
 
 
-a{
-	text-decoration: none;
-	color: #000;
-}
-
-em{
-	font-weight: bold;
-}
