@@ -24,7 +24,11 @@ header {
 }
 
 header img {
-	width: 260px;
+	width: 297px;
+	/*padding: 20px;*/
+	margin-left: auto; 
+	margin-right: auto;
+	
 }
 
 nav {
@@ -59,11 +63,17 @@ footer {
 
 body h1 {
 	font-family: gentium basics, sans;
+	
+
+}
+
+h1	{
 	padding: 5px;
 	font-weight: none; 
 	font-style: none;
 	font-size: 2em;
-
+	position: relative;
+	text-align: auto;
 }
 
 
@@ -80,14 +90,19 @@ h2 {
 	letter-spacing: 2px;
 	text-decoration: none;
 	background-color: none;
-	margin: 0; 
-	padding: 0;
+	/*margin: 0; 
+	padding: 0;*/
 	background-color: none;
 }
 
+p {
+	font-size: 1em;
+	line-height: 1.6em;
+
+}
+
 h3 {
-	font-family: 'Roboto', sans-serif; 
-	/*font-weight: 800;*/
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 	text-decoration: none;
 	background-color: none;
@@ -138,7 +153,7 @@ em {
 }
 
 #two_column {
-	background-color: #FFB7CF;
+	background-color: none;
 	border: 1px black solid;
 	padding: 90px
 }
@@ -146,17 +161,17 @@ em {
 #left {
 	background-color: #E582A2;
 	border: 1px black solid;
-	padding: 177px 193px;
+	padding: 128px 43px;
 	float: left;
-	width: 50%;
+	width: 49%;
 }
 
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
-	padding: 177px 193px;
+	padding: 117px 157px;
 	float: right;
-	width: 45%;
+	width: 50%;
 
 }
 
