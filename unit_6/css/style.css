@@ -12,13 +12,11 @@
 }
 
 img {
-	 width: 600px;
-	/* float: left;*/
-
+	 
 }
 
 header {
-	background-color: #FFED74;
+	background-color: none;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -118,7 +116,16 @@ em {
 	font-weight: bold;
 }
 
+.images img {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+
+}
+
 .imageinfo{
+	width: 22%;
+	margin: 1.5%;
 	float: right;
 }
 
@@ -159,7 +166,7 @@ em {
 }
 
 #left {
-	background-color: #E582A2;
+	background-color: none;
 	border: 1px black solid;
 	padding: 128px 43px;
 	float: left;
@@ -167,9 +174,9 @@ em {
 }
 
 #right {
-	background-color: #E55B88;
+	background-color: rgba(128,128,128, .5);
 	border: 1px black solid;
-	padding: 117px 157px;
+	padding: 128px 157px;
 	float: right;
 	width: 50%;
 
