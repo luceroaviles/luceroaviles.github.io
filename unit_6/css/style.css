@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700i,900&display=swap');
+
+
+* {
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	 width: 600px;
+	/* float: left;*/
+
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header img {
+	width: 260px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	text-transform:uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-decoration: none;
+    border:none;
+    background-color: none;
+    display: block;
+}
+
+
+
+footer {
+	text-align: center;
+	color: rgba(102,102,102,.6);
+	font-weight:100;
+	line-height: 1.5em;
+	font-size: 1em;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+body h1 {
+	font-family: gentium basics, sans;
+	padding: 5px;
+	font-weight: none; 
+	font-style: none;
+	font-size: 2em;
+
+}
+
+
+main {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+ 
+h2 {
+	font-size: 2.25em;
+	font-family: 'Roboto', sans-serif;
+	/*font-weight: 200; */
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-color: none;
+	margin: 0; 
+	padding: 0;
+	background-color: none;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif; 
+	/*font-weight: 800;*/
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: none;
+	font-style: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+em {
+	font-weight: bold;
+}
+
+.imageinfo{
+	float: right;
+}
+
+.policy {
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	text-transform:uppercase;
+	font-weight: 200;
+	letter-spacing: 2px;
+	text-decoration: none;
+    border:none;
+    background-color: none;
+}
+
+.social-list img {
+	width: 60px; 
+}
+
+.rivai {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 90px
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 177px 193px;
+	float: left;
+	width: 50%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 177px 193px;
+	float: right;
+	width: 45%;
+
+}
+
