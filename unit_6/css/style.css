@@ -53,8 +53,8 @@ footer {
 	font-weight:100;
 	line-height: 1.5em;
 	font-size: 1em;
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: none;
+	border: none;
 	padding: 20px;
 }
 
@@ -76,8 +76,8 @@ h1	{
 
 
 main {
-	background-color: #E89C6C;
-	border: 1px black solid;
+	background-color: none;
+	border: 0;
 	padding: 20px;
 }
  
@@ -114,6 +114,12 @@ a {
 
 em {
 	font-weight: bold;
+}
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+	background-color: none;
 }
 
 .images img {
