@@ -105,6 +105,8 @@ h3 {
 	text-decoration: none;
 	background-color: none;
 	font-style: bold;
+	font-size: 26px;
+	padding-bottom: 12px;
 }
 
 a {
@@ -114,6 +116,15 @@ a {
 
 em {
 	font-weight: bold;
+	font-size: 22px;
+	padding: 1px;
+}
+
+form {
+	margin: 1.5em;
+    padding: 0px;
+    line-height: 22px;
+    text-align: center;
 }
 
 .wrapper {
@@ -130,9 +141,10 @@ em {
 }
 
 .imageinfo{
-	width: 22%;
+	width: 44%;
 	margin: 1.5%;
 	float: right;
+	padding: 66px;
 }
 
 .policy {
