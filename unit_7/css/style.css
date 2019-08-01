@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700i,900&display=swap');
+
+
+* {
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header {
+	background-color: none;
+	border: none;
+	padding: 1em;
+}
+
+header img {
+	width: 297px;
+}
+
+nav {
+	background-color: none;
+	border: none;
+	padding: 1em;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	text-align: inherit;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+    border:none;
+    display: block;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+	padding: 1em;
+}
+
+
+body h1 {
+	font-family: gentium basics, sans;
+	
+
+}
+
+h1	{
+	padding: 5px;
+	font-weight: none; 
+	font-style: none;
+	font-size: 2em;
+	position: relative;
+	text-align: auto;
+}
+
+
+main {
+	background-color: none;
+	border: 0;
+	padding: 20px;
+}
+ 
+h2 {
+	font-size: 2.25em;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+}
+
+
+em {
+	font-weight: bold;
+	font-size: 22px;
+	padding: 1px;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: none;
+	font-style: bold;
+	font-size: 26px;
+	padding-bottom: 12px;
+}
+
+
+form {
+	margin: 1.5em;
+    padding: 0px;
+    line-height: 22px;
+    text-align: center;
+}
+
+footer {
+	text-align: center;
+	color: rgba(102,102,102,.6);
+	font-weight:100;
+	line-height: 1.5em;
+	font-size: 1em;
+	background-color: none;
+	border: none;
+	padding: 20px;
+}
+
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+	background-color: none;
+}
+
+.images img {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+
+}
+
+.imageinfo{
+	width: 44%;
+	margin: 1.5%;
+	position: absolute;
+	
+}
+
+.policy {
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	text-transform:uppercase;
+	font-weight: 200;
+	letter-spacing: 2px;
+	text-decoration: none;
+    border:none;
+    background-color: none;
+}
+
+.social-list img {
+	width: 60px; 
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: none;
+	border: 1px black solid;
+	padding: 90px
+}
+
+#left {
+	float: left;
+	width: 50%;
+	position: inherit;
+}
+
+#right {
+	float: right;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateY(50%);
+    padding: 0 2em;
+    background-image: url(../images/beach_day.jpg);
+    color: rgba(255,255,255,1.0);
+    background-size: cover;
+    background-color: 
+}
+
+@media only screen and (max-width: 1281px) {
+	#right {
+		width: 51%;
+
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+	nav {
+		width: 90%;
+	}
+
+	a {
+		line-height: 2em;
+	}
+}
+
+
+
