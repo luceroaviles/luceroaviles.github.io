@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-/*@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Roboto:700i,900&display=swap');
 
 
@@ -11,51 +9,35 @@
 	box-sizing: border-box;
 }
 
-img {
-	 
-}
 
 header {
 	background-color: none;
-	border: 1px black solid;
-	padding: 20px;
+	border: none;
+	padding: 1em;
 }
 
 header img {
 	width: 297px;
-	/*padding: 20px;*/
-	margin-left: auto; 
-	margin-right: auto;
-	
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-	margin: auto;
+	background-color: none;
+	border: none;
+	padding: 1em;
 	font-family: 'Open Sans', sans-serif;
-	color:#000;
 	text-transform:uppercase;
-	font-weight: 100;
-	letter-spacing: 2px;
+	text-align: inherit;
+	letter-spacing: 0.2em;
 	text-decoration: none;
     border:none;
-    background-color: none;
     display: block;
 }
 
 
-
-footer {
-	text-align: center;
-	color: rgba(102,102,102,.6);
-	font-weight:100;
-	line-height: 1.5em;
-	font-size: 1em;
-	background-color: none;
-	border: none;
-	padding: 20px;
+a {
+	text-decoration: none;
+	color: #000;
+	padding: 1em;
 }
 
 
@@ -84,19 +66,19 @@ main {
 h2 {
 	font-size: 2.25em;
 	font-family: 'Roboto', sans-serif;
-	/*font-weight: 200; */
 	letter-spacing: 2px;
-	text-decoration: none;
-	background-color: none;
-	/*margin: 0; 
-	padding: 0;*/
-	background-color: none;
+}
+
+
+em {
+	font-weight: bold;
+	font-size: 22px;
+	padding: 1px;
 }
 
 p {
 	font-size: 1em;
 	line-height: 1.6em;
-
 }
 
 h3 {
@@ -109,16 +91,6 @@ h3 {
 	padding-bottom: 12px;
 }
 
-a {
-	text-decoration: none;
-	color: #000;
-}
-
-em {
-	font-weight: bold;
-	font-size: 22px;
-	padding: 1px;
-}
 
 form {
 	margin: 1.5em;
@@ -127,8 +99,20 @@ form {
     text-align: center;
 }
 
+footer {
+	text-align: center;
+	color: rgba(102,102,102,.6);
+	font-weight:100;
+	line-height: 1.5em;
+	font-size: 1em;
+	background-color: none;
+	border: none;
+	padding: 20px;
+}
+
+
 .wrapper {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	background-color: none;
 }
@@ -141,10 +125,11 @@ form {
 }
 
 .imageinfo{
-	width: 44%;
-	margin: 1.5%;
+	width: 50%;
+	position: absolute;
 	float: right;
-	padding: 66px;
+	left: 50%;
+	transform: translateY(50%);
 }
 
 .policy {
@@ -157,16 +142,11 @@ form {
     border:none;
     background-color: none;
 }
-/* continue tomorrow*/
+
 .social-list img {
 	width: 60px; 
 }
 
-.rivai {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
 
 .clearfix:after {
 	visibility: hidden;
@@ -184,19 +164,40 @@ form {
 }
 
 #left {
-	background-color: none;
-	border: 1px black solid;
-	padding: 128px 43px;
 	float: left;
-	width: 49%;
+	width: 50%;
+	position: inherit;
 }
 
 #right {
-	background-color: rgba(128,128,128, .5);
-	border: 1px black solid;
-	padding: 128px 157px;
 	float: right;
-	width: 50%;
-
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateY(50%);
+    padding: 0 2em;
+    background-image: url(../images/beach_day.jpg);
+    color: rgba(255,255,255,1.0);
+    background-size: cover;
+    background-color: 
 }
+
+@media only screen and (max-width: 1281px) {
+	#right {
+		width: 51%;
+
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+	nav {
+		width: 90%;
+	}
+
+	a {
+		line-height: 2em;
+	}
+}
+
+
 
