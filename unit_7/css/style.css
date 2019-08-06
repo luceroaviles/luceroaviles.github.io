@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:700i,900&display=swap');
 
 
@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-	width: 297px;
+	width: 30%;
 }
 
 nav {
@@ -48,7 +48,7 @@ body h1 {
 }
 
 h1	{
-	padding: 5px;
+	padding: 0.1em;
 	font-weight: none; 
 	font-style: none;
 	font-size: 2em;
@@ -56,24 +56,30 @@ h1	{
 	text-align: auto;
 }
 
+hr {
+	background-color: rgba(228, 228, 228,0.9);
+	border: none;
+	height: 1em;
+}
 
 main {
-	background-color: none;
-	border: 0;
-	padding: 20px;
+	padding: 1.25em;
 }
+
+
  
 h2 {
 	font-size: 2.25em;
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
+	text-align: center;
 }
 
 
 em {
 	font-weight: bold;
-	font-size: 22px;
-	padding: 1px;
+	font-size: 1.4em;
+	padding: 0.1em;
 }
 
 p {
@@ -83,20 +89,26 @@ p {
 
 h3 {
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 1px;
+	letter-spacing: 0.1em;
 	text-decoration: none;
 	background-color: none;
 	font-style: bold;
-	font-size: 26px;
+	font-size: 1.6em;
 	padding-bottom: 12px;
 }
-
+ 
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+}
 
 form {
 	margin: 1.5em;
-    padding: 0px;
-    line-height: 22px;
+    padding: 0;
+    line-height: 1.4em;
     text-align: center;
+    background-color: rgba(228, 228, 228,0.9); 
 }
 
 footer {
@@ -107,7 +119,7 @@ footer {
 	font-size: 1em;
 	background-color: none;
 	border: none;
-	padding: 20px;
+	padding: 1.25em;
 }
 
 
@@ -117,18 +129,18 @@ footer {
 	background-color: none;
 }
 
-.images img {
-	max-width: 600px;
-	margin: auto;
-	padding: 20px;
 
+.images img {
+	margin: 2em 0;
+	position: relative;
 }
 
 .imageinfo{
-	width: 44%;
-	margin: 1.5%;
-	position: absolute;
-	
+	float: right;
+	width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .policy {
@@ -136,14 +148,16 @@ footer {
 	color:#000;
 	text-transform:uppercase;
 	font-weight: 200;
-	letter-spacing: 2px;
+	letter-spacing: 0.1em;
 	text-decoration: none;
     border:none;
     background-color: none;
+    font-size: 1em;
+    text-align: center;
 }
 
 .social-list img {
-	width: 60px; 
+	width: 4%; 
 }
 
 
@@ -156,11 +170,6 @@ footer {
 	height: 0;
 }
 
-#two_column {
-	background-color: none;
-	border: 1px black solid;
-	padding: 90px
-}
 
 #left {
 	float: left;
@@ -177,11 +186,12 @@ footer {
     padding: 0 2em;
     background-image: url(../images/beach_day.jpg);
     color: rgba(255,255,255,1.0);
+    background-color: rgba(228, 228, 228, 0.9);
     background-size: cover;
     background-color: 
 }
 
-@media only screen and (max-width: 1281px) {
+/*@media only screen and (max-width: 1281px) {
 	#right {
 		width: 51%;
 
@@ -196,7 +206,7 @@ footer {
 	a {
 		line-height: 2em;
 	}
-}
+}*/
 
 
 
