@@ -17,31 +17,35 @@ header {
 }
 
 header img {
-	width: 30%;
+	transform: translateX(18%);
 }
 
-nav {
-	background-color: none;
-	border: none;
-	padding: 1em;
+nav, .policy {
 	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+nav {
+	padding: 1em;
 	text-transform:uppercase;
 	text-align: inherit;
 	letter-spacing: 0.2em;
 	text-decoration: none;
     border:none;
     display: block;
+    transform: translateX(-9%);
 }
 
 
 a {
 	text-decoration: none;
 	color: #000;
-	padding: 1em;
+	padding: 0 1em;
 }
 
 
-body h1 {
+body, h1 {
 	font-family: gentium basics, sans;
 	
 
@@ -49,11 +53,9 @@ body h1 {
 
 h1	{
 	padding: 0.1em;
-	font-weight: none; 
-	font-style: none;
-	font-size: 2em;
+	font-size: 1.8em;
 	position: relative;
-	text-align: auto;
+
 }
 
 hr {
@@ -66,13 +68,16 @@ main {
 	padding: 1.25em;
 }
 
+h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+} 
 
  
 h2 {
 	font-size: 2.25em;
-	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.1em;
 	text-align: center;
+	transform: translateY(10px);
 }
 
 
@@ -88,17 +93,15 @@ p {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.1em;
 	text-decoration: none;
 	background-color: none;
 	font-style: bold;
 	font-size: 1.6em;
-	padding-bottom: 12px;
+	padding-bottom: 0.75em;
 }
  
 h4 {
-	font-family: 'Roboto', sans-serif;
 	font-size: 1.25em;
 	text-align: center;
 }
@@ -122,12 +125,40 @@ footer {
 	padding: 1.25em;
 }
 
+#left {
+	float: left;
+	width: 50%;
+	position: inherit;
+	transform: translate(19%, 50%);
+}
+
+#right {
+    left: 50%;
+    
+}
+
+.right img {
+	width: 100%;
+}
+
+
+.centered{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(25%, -215%);
+  	width: 37%;
+  	padding: 0 .1em;
+    color: rgba(255,255,255,1.0);
+
+}
 
 .wrapper {
 	width: 100%;
 	margin: auto;
 	background-color: none;
 }
+
 
 
 .images img {
@@ -138,13 +169,10 @@ footer {
 .imageinfo{
 	float: right;
 	width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+	transform: translateY(106%);
 }
 
 .policy {
-	font-family: 'Open Sans', sans-serif;
 	color:#000;
 	text-transform:uppercase;
 	font-weight: 200;
@@ -171,25 +199,7 @@ footer {
 }
 
 
-#left {
-	float: left;
-	width: 50%;
-	position: inherit;
-}
 
-#right {
-	float: right;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    transform: translateY(50%);
-    padding: 0 2em;
-    background-image: url(../images/beach_day.jpg);
-    color: rgba(255,255,255,1.0);
-    background-color: rgba(228, 228, 228, 0.9);
-    background-size: cover;
-    background-color: 
-}
 
 /*@media only screen and (max-width: 1281px) {
 	#right {
