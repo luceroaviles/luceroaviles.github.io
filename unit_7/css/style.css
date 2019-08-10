@@ -11,11 +11,13 @@
 
 
 header {
-	background-color: none;
 	border: none;
 	padding: 1em;
 }
 
+header img  {
+	padding: 1em 0; 
+}
 
 
 nav, .policy {
@@ -25,21 +27,19 @@ nav, .policy {
 
 
 nav {
-	padding: 1em;
 	text-transform:uppercase;
 	text-align: inherit;
 	letter-spacing: 0.2em;
 	text-decoration: none;
     border:none;
     display: block;
-    transform: translateX(-9%);
 }
 
 
 a {
 	text-decoration: none;
 	color: #000;
-	padding: 0 1em;
+	padding: 1em 1em;
 }
 
 
@@ -50,10 +50,7 @@ body, h1 {
 }
 
 h1	{
-	padding: 0.1em;
 	font-size: 1.8em;
-	position: relative;
-
 }
 
 hr {
@@ -63,7 +60,7 @@ hr {
 }
 
 main {
-	padding: 1.25em;
+	padding: 1em;
 }
 
 h2, h3, h4 {
@@ -75,7 +72,8 @@ h2 {
 	font-size: 2.25em;
 	letter-spacing: 0.1em;
 	text-align: center;
-	transform: translateY(10px);
+	padding: 0.5em 0;
+	
 }
 
 
@@ -102,6 +100,7 @@ h3 {
 h4 {
 	font-size: 1.25em;
 	text-align: center;
+	padding: 0.55em 0;
 }
 
 form {
@@ -125,31 +124,23 @@ footer {
 
 #left {
 	float: left;
+	text-align: center;
+	padding: 10em 6em;
 	width: 50%;
-	position: inherit;
-	transform: translate(19%, 50%);
 }
 
 #right {
+ 	float: right;
+    width: 50%;
     left: 50%;
-    
-}
-
-.right img {
-	width: 100%;
-}
-
-
-.centered{
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(25%, -200%);
-  	width: 37%;
-  	padding: 0 .1em;
+    padding: 10em;
+    /*background-image: url(../images/beach_day.jpg);*/
+    background-color: rgba(228, 228, 228,0.9); 
     color: rgba(255,255,255,1.0);
+    background-size: cover;
 
 }
+
 
 .wrapper {
 	width: 100%;
@@ -162,6 +153,7 @@ footer {
 .images img {
 	margin: 2em 0;
 	position: relative;
+	width: 40% 
 }
 
 .imageinfo{
@@ -199,22 +191,20 @@ footer {
 
 
 
-/*@media only screen and (max-width: 1281px) {
-	#right {
-		width: 51%;
-
+@media only screen and (max-width: 1600px) {
+	#right,#left {
+		width: 50%;
 	}
+
 }
 
-@media only screen and (max-width: 1350px) {
-	nav {
+/*	nav {
 		width: 90%;
 	}
 
 	a {
 		line-height: 2em;
-	}
-}*/
+	}*/
 
 
 
