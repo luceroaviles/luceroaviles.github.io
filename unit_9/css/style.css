@@ -51,7 +51,7 @@ body, h1 {
 
 h1	{
 	font-size: 1.6em;
-	padding: 0 0 1em;
+	padding: 0 0 0.2em;
 }
 
 hr {
@@ -192,7 +192,7 @@ footer {
 
 
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1600px) {
 	#left {
 		width: 50%;
 	}
@@ -208,7 +208,7 @@ footer {
     
 }
 
-@media only screen and (max-width: 1583px) {
+@media only screen and (max-width: 1594px) {
 	#left {
 		padding: 7em 6em;
 	}
@@ -246,17 +246,49 @@ footer {
    		width: 100%;
    	}
 
+   	.imageinfo {
+   		padding: 7em 2.25em 0 0;
+   	}
+
+   	h2 {
+   		font-size: 2.2em;
+   	}
 }
 
 @media only screen and (max-width: 1350px) {
 	.imageinfo {
 		float: none;
+		transform: translateX(50%);
+		padding: 0;
 	}
 
 	h3 {
 		text-align: center;
 	}
+
+	.images img {
+		width: 50%;
+		transform: translateX(50%);
+	}
 }
 
+@media only screen and (max-width: 990px) {
+	h2 {
+		font-size: 2em;
+	}
 
+	h3 {
+		font-size: 1.5em
+	}
+
+	em {
+		font-size: 1.2em;
+	}
+
+	.images img {
+    width: 56%;
+    transform: translateX(39%);
+}
+
+}
 
