@@ -71,7 +71,8 @@ h2, h3, h4 {
 
  
 h2 {
-	text-align: center;	
+	text-align: center;
+	font-size: 2.5em;
 }
 
 
@@ -132,7 +133,6 @@ footer {
     left: 50%;
     padding: 10em;
    	background-image: url(../images/beach_fog.jpg);
-    /*background-color: rgba(228, 228, 228,0.9); */ 
     color: rgba(0,1.0);
     background-size: cover;
 
@@ -145,8 +145,6 @@ footer {
 
 .wrapper {
 	width: 100%;
-	margin: auto;
-	background-color: none;
 }
 
 
@@ -154,14 +152,14 @@ footer {
 .images img {
 	margin: 2em 0;
 	position: relative;
-	width: 40% 
+	width: 50% 
 }
 
 
 .imageinfo{
 	float: right;
 	width: 50%;
-	padding: 9em 2em;
+	padding: 12em 2em;
 }
 
 .policy {
@@ -202,10 +200,6 @@ footer {
    		width: 50%;
    		padding: 10em;
    	}
-
-   	.images img {
-	width: 40%;
-	}
     
 }
 
@@ -229,9 +223,9 @@ footer {
    	}
 }
 
-@media only screen and (max-width: 1506px) {
+@media only screen and (max-width: 1469px) {
 	.imageinfo {
-		padding: 7em 0;
+		padding: 10em 2em;
 	}
 }
 
