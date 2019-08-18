@@ -31,7 +31,6 @@ nav {
 	text-transform:uppercase;
 	text-align: inherit;
 	letter-spacing: 0.2em;
-	text-decoration: none;
     border:none;
     display: block;
 }
@@ -40,9 +39,13 @@ nav {
 a {
 	text-decoration: none;
 	color: #000;
-	padding: 1em 1em;
+	padding: 0.8em;
 }
 
+a:hover {
+  color: rgba(127, 135, 120, 0.9);
+  background-color: rgba(205, 205, 205, 0.9);
+}
 
 body {
 	font-family: 'Gentium Basic', serif;
@@ -98,15 +101,18 @@ h3 {
 h4 {
 	font-size: 1.25em;
 	text-align: center;
-	padding: 0.55em 0;
+	margin: 1.5em;
 }
 
 form {
-	margin: 1.5em;
-    padding: 0;
-    line-height: 1.4em;
+    padding: 3em;
     text-align: center;
     background-color: rgba(228, 228, 228,0.9); 
+    font-family: 'Roboto', sans-serif;
+}
+
+form p {
+	font-weight: bolder;
 }
 
 footer {
@@ -118,6 +124,10 @@ footer {
 	background-color: none;
 	border: none;
 	padding: 1.25em;
+}
+
+input {
+	line-height: 1.5em;
 }
 
 #left {
@@ -211,6 +221,12 @@ footer {
 	#right {
    		padding: 9em;
    	}
+}
+
+@media only screen and (max-width: 1508px) {
+	.imageinfo {
+		padding: 11em 2em;
+	}
 }
 
 @media only screen and (max-width: 1531px) {
